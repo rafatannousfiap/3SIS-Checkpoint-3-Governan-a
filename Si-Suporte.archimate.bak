@@ -49,7 +49,6 @@
     <element xsi:type="archimate:Constraint" name="Exibir mês a mês, o tempo em médio em horas para concluir a solução de chamados" id="id-d6bffc033e6c4ae096581cd62b7f0031"/>
     <element xsi:type="archimate:Constraint" name="Exibir mês a mês, a quantidade média de chamados por tipo de especialidade" id="id-317f8e8995ab4d3595742c67e5b333ed"/>
     <element xsi:type="archimate:Constraint" name="Enviar um e-mail para o cliente solicitando uma nota para o atendimento: 0 - não resolvido; 1 - resolvido de forma provisória; 2 - totalmente solucionado" id="id-e6df41c95a8a46dabb196bb5f6607255"/>
-    <element xsi:type="archimate:Constraint" name="Exibir painel com as notas médias por tipo de chamado e mês" id="id-74107e0286474613b5ba2061674b209a"/>
   </folder>
   <folder name="Implementation &amp; Migration" id="id-4906e7f989eb483c81cae923473460f3" type="implementation_migration"/>
   <folder name="Other" id="id-05fba70529d84ed690224fe2f77e2f0c" type="other"/>
@@ -110,7 +109,6 @@
     <element xsi:type="archimate:AssociationRelationship" id="id-73d37753d9c546a3a52dac8f9acdcc07" source="id-317f8e8995ab4d3595742c67e5b333ed" target="id-6b48093d8e46408aad5ec835c0e1867e"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-b1c8d38bacfd4f9bbd2637f768db85e7" source="id-e6df41c95a8a46dabb196bb5f6607255" target="id-467b99413e8d45d093ea3fcc6a6f08dc"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-893e00616a5948849470d56e0191903f" source="id-fbcf9edeec5e43e192a98cd66d79c8c1" target="id-467b99413e8d45d093ea3fcc6a6f08dc"/>
-    <element xsi:type="archimate:AssociationRelationship" id="id-3be0c11e4e7d4ff38ed002c7e5056740" source="id-74107e0286474613b5ba2061674b209a" target="id-9c6331c81121470b88c6403aebef5b5d"/>
   </folder>
   <folder name="Views" id="id-f6430f6319ec48ad918c677639d5110b" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-faa36300722b4e75be67a9bf8435ed36">
@@ -233,7 +231,7 @@
         <bounds x="1044" y="643" width="120" height="80"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-d49817b0374a406aa88f7c40adb0cb96" source="id-510cb6bc874d4cfe809bbe074661c4b6" target="id-d495111d6808420391bf8fa1e5e722f7" archimateRelationship="id-3a7de5ca6e924e0d8465acf08ef0782d"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="id-8be8be181a1b477e871d2977a5686fac" targetConnections="id-ac8040752fd94abc96b2ed73bdd5df20" archimateElement="id-9c6331c81121470b88c6403aebef5b5d">
+      <child xsi:type="archimate:DiagramObject" id="id-8be8be181a1b477e871d2977a5686fac" archimateElement="id-9c6331c81121470b88c6403aebef5b5d">
         <bounds x="1276" y="643" width="120" height="80"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-d7cb2810b2ad42bfbf6af028dcff7d23" source="id-8be8be181a1b477e871d2977a5686fac" target="id-d495111d6808420391bf8fa1e5e722f7" archimateRelationship="id-ddaf05c36cd44de4bd79634329cd2d2f"/>
       </child>
@@ -292,10 +290,6 @@
       <child xsi:type="archimate:DiagramObject" id="id-25e8344e6d054dad99d91c4976075715" archimateElement="id-e6df41c95a8a46dabb196bb5f6607255">
         <bounds x="1068" y="1102" width="208" height="115"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-eb799f6e3ab54756850a512ddcc56938" source="id-25e8344e6d054dad99d91c4976075715" target="id-510cb6bc874d4cfe809bbe074661c4b6" archimateRelationship="id-b1c8d38bacfd4f9bbd2637f768db85e7"/>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="id-929e48c713ec490a80b5ad93acbfc402" archimateElement="id-74107e0286474613b5ba2061674b209a">
-        <bounds x="1292" y="1117" width="160" height="82"/>
-        <sourceConnection xsi:type="archimate:Connection" id="id-ac8040752fd94abc96b2ed73bdd5df20" source="id-929e48c713ec490a80b5ad93acbfc402" target="id-8be8be181a1b477e871d2977a5686fac" archimateRelationship="id-3be0c11e4e7d4ff38ed002c7e5056740"/>
       </child>
     </element>
   </folder>
